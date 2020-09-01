@@ -1,0 +1,22 @@
+<html lang="en">
+    <head>
+        <title>Troolo Board</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1><%= title %></h1>
+        <div class="box">
+            <div class="column" class="column" id="1" ondragover="onDragOver(event)" ondrop="onDrop(event)">
+                <textarea placeholder="New Card" class="add-card"></textarea>
+            </div>
+            <div class="column" id="2" ondragover="onDragOver(event)" ondrop="onDrop(event)">
+                <textarea placeholder="New Card" class="add-card"></textarea>
+            </div>
+            <div class="column" id="3" ondragover="onDragOver(event)" ondrop="onDrop(event)">
+                <textarea placeholder="New Card" class="add-card"></textarea>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
